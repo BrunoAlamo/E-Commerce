@@ -63,12 +63,82 @@
                     <option>P</option>
                 </select>
                 <input type="number" value="1">
-                <button>Adicione ao Carrinho</button>
+                <button class="normal">Carrinho<i class="fa-solid fa-bag-shopping"></i></button>
                 <h4>Detalhes do Produto</h4>
                 <span>A camiseta Gildan Ultra Cotton é feita de um tecido robusto de 6,0 oz. por jarda quadrada, confeccionado com 100% algodão. Este modelo clássico de malha pré-encolhida oferece conforto incomparável a cada uso. Com gola e ombros reforçados com fita, gola dupla sem costura e disponível em várias cores, ela oferece tudo isso em um pacote que chama a atenção.</span>
             </div>
-        <div></div>
     </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Produtos em Destaque</h2>
+        <p>Coleção de Verão Novo Design Moderno</p>
+        <div class="pro-container">
+           <div class="pro">
+               <img src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/n1.jpg" alt="">
+               <div class="des">
+                   <span>adidas</span>
+                   <h5>Camisetas de Astronauta de Desenho Animado</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>R$78</h4>
+               </div>
+               <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+           </div>
+           <div class="pro">
+               <img src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/n2.jpg" alt="">
+               <div class="des">
+                   <span>adidas</span>
+                   <h5>Camisetas de Astronauta de Desenho Animado</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>R$78</h4>
+               </div>
+               <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+           </div>
+           <div class="pro">
+               <img src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/n3.jpg" alt="">
+               <div class="des">
+                   <span>adidas</span>
+                   <h5>Camisetas de Astronauta de Desenho Animado</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>R$78</h4>
+               </div>
+               <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+           </div>
+           <div class="pro">
+               <img src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/n4.jpg" alt="">
+               <div class="des">
+                   <span>adidas</span>
+                   <h5>Camisetas de Astronauta de Desenho Animado</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>R$78</h4>
+               </div>
+               <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+           </div>
+        </div>
+   </section>
 
     <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
@@ -134,6 +204,24 @@
             <p>&copy; 2025 Bruno Álamo. Todos os direitos reservados.</p>
         </div>
     </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
