@@ -584,7 +584,7 @@ footer .copyright{
 
 #prodetails .single-pro-image {
     width: 40%;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 .small-img-group {
@@ -601,6 +601,45 @@ footer .copyright{
     width: 50%;
     padding: 30px;
 }
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details button {
+    background: #088178;
+    color: #fff;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+.fa-bag-shopping {
+        margin-left: 10px;
+    }
+
 
 
 /* Start Media Query */
@@ -759,4 +798,24 @@ footer .copyright{
     footer .copyright{
         text-align: start;
     }
+
+    /* Single Product Page */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image{
+        width: 100%;
+        margin-right: 0px;
+    }
+    
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
+
+    .fa-bag-shopping {
+        margin-left: 10px;
+    }
+   
 }
