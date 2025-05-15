@@ -640,7 +640,25 @@ footer .copyright{
         margin-left: 10px;
     }
 
+/* About Page */
 
+#page-header.about-header{
+    background-image: url("https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/raw/main/img/about/banner.png");
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
 
 /* Start Media Query */
 
@@ -818,4 +836,17 @@ footer .copyright{
         margin-left: 10px;
     }
    
+    /* ABOUT PAGE */
+
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div {
+        padding-left: 0px;
+    }
 }
